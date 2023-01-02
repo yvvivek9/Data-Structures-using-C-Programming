@@ -1,4 +1,6 @@
 #include "double_linked_list.h"
+#include "stacks.h"
+#include "queue.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -21,6 +23,12 @@ int main()
                 exit(0);
             case 1:
                 driver_dll();
+                break;
+            case 2:
+                driver_stack();
+                break;
+            case 3:
+                driver_queue();
                 break;
         }
     }
